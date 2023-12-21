@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="button-container">
+        
+       
+        <script>
+            
+            var number = window.prompt("Select a number from 1 to 10: ");
+            
+            var rand = Math.floor((Math.random()*10)+1);
+
+            while (number !== rand) {
+            number = parseInt(window.prompt("Try again! Select a number from 1 to 10: "));
+            }
+
+            alert("Congratulations! You guessed the correct number.");
+       
+        </script>
+    </div>
+</body>
+</html>
